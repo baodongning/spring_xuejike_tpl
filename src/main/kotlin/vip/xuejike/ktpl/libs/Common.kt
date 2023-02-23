@@ -543,7 +543,7 @@ fun FlowContent.jkSelectChecked(title: String="",
 }
 //-----------------表单部分结束---------------------------
 fun <T>FlowContent.jkTable(headNames:LinkedHashMap<String, JkTableCol<T>>
-                           ,dataList:List<T>,colgroupCallback:TABLE.() -> Unit={}){
+                           ,dataList:List<T>,colgroupCallback:block:TABLE.() -> Unit={}){
 
 
     table {
